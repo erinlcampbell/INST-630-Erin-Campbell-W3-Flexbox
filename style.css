@@ -1,0 +1,86 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.component-intermediate{
+    display: flex;
+    flex-direction: column;
+    font-family: inter;
+    width: 471px;
+    height: 136px;
+    border: solid 1px black;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 20px;
+    
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top{
+    display: flex;
+    flex-direction: row;
+}
+
+.author-name{
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+}
+
+.title{
+    font-size: 20px;
+
+}
+
+.date{
+   font-size: 14px;
+   color: rgb(99, 99, 99); 
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 7px;
+}
+
+.text{
+    margin-top: auto;
+    font-size: 15px;
+    
+    
+}
+
+.engagement-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: auto;
+}
+
+.icon-text{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 14px;
+    color: rgb(99, 99, 99);
+}
+
+
